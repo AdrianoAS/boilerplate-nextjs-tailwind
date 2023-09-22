@@ -1,10 +1,10 @@
-import type { StoryObj } from "@storybook/react";
+import Home from './page';
 
-import Home from "./page";
+import type { StoryObj } from '@storybook/react';
 
 export default {
-  title: "Pages/Home",
-  component: Home,
+  title: 'Pages/Home',
+  component: Home
 };
 
 type HomeStory = StoryObj<typeof Home>;

@@ -1,0 +1,8 @@
+echo 'Check for eslint error...'
+
+yarn run check 
+
+echo 'Done eslint'
+
+npm run find-deadcode
+

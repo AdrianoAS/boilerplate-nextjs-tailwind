@@ -4,5 +4,5 @@ yarn run check
 
 echo 'Done eslint'
 
-yarn find-deadcode
+npm run find-deadcode
 

@@ -1,0 +1,8 @@
+echo 'Check for eslint error...'
+
+yarn run check 
+
+echo 'Done eslint'
+
+yarn find-deadcode
+

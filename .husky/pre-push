@@ -1,0 +1,7 @@
+echo 'Check for typings'
+npm run build;
+echo 'Done typings'
+
+echo 'Running teste'
+npm run test
+echo 'Done test'

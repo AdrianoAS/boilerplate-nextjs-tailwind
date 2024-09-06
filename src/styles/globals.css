@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900;
+  @apply text-cyan-50;
+  @apply antialiased;
+  @apply subpixel-antialiased;
+  @apply font-normal;
+  @apply text-base;
+}
+
+body,
+html {
+  @apply h-screen;
+  @apply w-screen;
+}
+
+li {
+  @apply list-none;
+}
+
+a {
+  @apply no-underline;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+img {
+  @apply max-w-full;
+  @apply h-full;
+}

@@ -5,3 +5,7 @@ echo 'Done typings'
 echo 'Running teste'
 npm run test:pre-push
 echo 'Done test'
+
+echo 'Release version'
+npx changeset publish
+echo 'Done release version'
